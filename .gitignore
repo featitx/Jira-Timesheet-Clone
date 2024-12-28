@@ -1,24 +1,17 @@
-# Logs
-logs
+# Ignore log files
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Ignore node_modules directory
+node_modules/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Ignore compiled files
+*.class
+*.o
+*.pyc
+
+# Ignore environment variables
+.env
+
+# Ignore build directory
+/dist/
+ 
