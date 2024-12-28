@@ -1,0 +1,102 @@
+[
+  {
+    "issue": "ATL-0011",
+    "logs": [
+      { "date": "2024-12-01", "hours": 4.5, "description": "" },
+      { "date": "2024-12-08", "hours": 4.5, "description": "" },
+      { "date": "2024-12-15", "hours": 4.5, "description": "" },
+      { "date": "2024-12-22", "hours": 4, "description": "" },
+      { "date": "2024-12-29", "hours": 4.5, "description": "" },
+      { "date": "2024-12-04", "hours": 4.5, "description": "" },
+      { "date": "2024-12-11", "hours": 4.5, "description": "" }
+    ]
+  },
+  {
+    "issue": "ATL-0012",
+    "logs": [
+      { "date": "2024-12-02", "hours": 5, "description": "" },
+      { "date": "2024-12-09", "hours": 5, "description": "" },
+      { "date": "2024-12-16", "hours": 5.5, "description": "" },
+      { "date": "2024-12-23", "hours": 5, "description": "" },
+      { "date": "2024-12-30", "hours": 4, "description": "" },
+      { "date": "2024-12-05", "hours": 4, "description": "" },
+      { "date": "2024-12-12", "hours": 4, "description": "" }
+    ]
+  },
+  {
+    "issue": "ATL-0013",
+    "logs": [
+      { "date": "2024-12-03", "hours": 4, "description": "" },
+      { "date": "2024-12-10", "hours": 4, "description": "" },
+      { "date": "2024-12-17", "hours": 4.5, "description": "" },
+      { "date": "2024-12-24", "hours": 5, "description": "" },
+      { "date": "2024-12-06", "hours": 4.5, "description": "" },
+      { "date": "2024-12-13", "hours": 4, "description": "" }
+    ]
+  },
+  {
+    "issue": "ATL-0014",
+    "logs": [
+      { "date": "2024-12-04", "hours": 4, "description": "" },
+      { "date": "2024-12-11", "hours": 4, "description": "" },
+      { "date": "2024-12-18", "hours": 4.5, "description": "" },
+      { "date": "2024-12-25", "hours": 4, "description": "" },
+      { "date": "2024-12-07", "hours": 4.5, "description": "" },
+      { "date": "2024-12-14", "hours": 4, "description": "" }
+    ]
+  },
+  {
+    "issue": "ATL-0015",
+    "logs": [
+      { "date": "2024-12-05", "hours": 4, "description": "" },
+      { "date": "2024-12-12", "hours": 4, "description": "" },
+      { "date": "2024-12-19", "hours": 4.5, "description": "" },
+      { "date": "2024-12-26", "hours": 4.5, "description": "" }
+    ]
+  },
+  {
+    "issue": "ATL-0016",
+    "logs": [
+      { "date": "2024-12-06", "hours": 4, "description": "" },
+      { "date": "2024-12-13", "hours": 4, "description": "" },
+      { "date": "2024-12-20", "hours": 4, "description": "" },
+      { "date": "2024-12-27", "hours": 4.5, "description": "" }
+    ]
+  },
+  {
+    "issue": "ATL-0017",
+    "logs": [
+      { "date": "2024-12-02", "hours": 5, "description": "" },
+      { "date": "2024-12-09", "hours": 5, "description": "" },
+      { "date": "2024-12-16", "hours": 5.5, "description": "" },
+      { "date": "2024-12-23", "hours": 5, "description": "" },
+      { "date": "2024-12-30", "hours": 4, "description": "" },
+      { "date": "2024-12-05", "hours": 4, "description": "" },
+      { "date": "2024-12-12", "hours": 4, "description": "" }
+    ]
+  },
+  {
+    "issue": "ATL-0018",
+    "logs": [
+      { "date": "2024-12-02", "hours": 5, "description": "" },
+      { "date": "2024-12-09", "hours": 5, "description": "" },
+      { "date": "2024-12-16", "hours": 5.5, "description": "" },
+      { "date": "2024-12-23", "hours": 5, "description": "" },
+      { "date": "2024-12-30", "hours": 4, "description": "" },
+      { "date": "2024-12-05", "hours": 4, "description": "" },
+      { "date": "2024-12-12", "hours": 4, "description": "" }
+    ]
+  },
+  {
+    "issue": "ATL-0019",
+    "logs": [
+      { "date": "2024-12-02", "hours": 5, "description": "" },
+      { "date": "2024-12-09", "hours": 5, "description": "" },
+      { "date": "2024-12-16", "hours": 5.5, "description": "" },
+      { "date": "2024-12-23", "hours": 5, "description": "" },
+      { "date": "2024-12-30", "hours": 4, "description": "" },
+      { "date": "2024-12-05", "hours": 4, "description": "" },
+      { "date": "2024-12-12", "hours": 4, "description": "" }
+    ]
+  }
+]
