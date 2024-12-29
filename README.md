@@ -1,8 +1,74 @@
-# React + Vite
+# Jira Time Tracking Sheet Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, React-based time tracking application inspired by Jira's time logging system. Built with React and Tailwind CSS, this application offers an intuitive interface for managing and tracking work hours across different projects and issues.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- **Interactive Date Management**
+  - Flexible date range picker
+  - Quick selection for common time periods (Today, This Week, This Month)
+  - Calendar view for date navigation
+
+- **Comprehensive Time Logging**
+  - Modal-based time entry system
+  - Support for multiple issues
+  - Custom work log descriptions
+  - Time estimation tracking (Total)
+
+- **Status**
+***It still under development and there is many thing to be implement***
+
+
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React.js
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **Data Storage:**  JSON
+
+
+## 📦 Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/jira-timesheet.git
+cd jira-timesheet
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+## 🏗️ Project Structure
+
+```
+src/
+├── components/
+│   ├── DatePicker/
+|   ├── DateRangePicker/
+│   ├── LogTimeModal/
+│   ├── TimeSheetTable/
+│   ├── Navbar/
+│   └── Sidebar/
+└── App.js
+```
+
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit issues and pull requests.
+
+## 🙏 Acknowledgments
+
+- Inspired by Jira's time tracking system
+- Icons provided by Lucide React
+- UI components inspired by Tailwind CSS
+
