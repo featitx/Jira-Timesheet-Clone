@@ -9,7 +9,7 @@ const generateDateRange = () => {
 
   while (start <= end) {
     const day = start.getDate();
-    const month = start.getMonth() + 1; // Months are zero-indexed in JS Date
+    const month = start.getMonth() + 1;
     const year = start.getFullYear();
     const weekday = start
       .toLocaleString("en-us", { weekday: "short" })
@@ -42,9 +42,8 @@ const TimeSheetTable = ({ timesheetData }) => {
                 Logged
               </th>
               {dateRange.map(({ day, month, year, weekday }) => {
-                const isToday =
-                  day === new Date().getDate() 
-                  month === new Date().getMonth() + 1 &&
+                const isToday = day === new Date().getDate();
+                month === new Date().getMonth() + 1 &&
                   year === new Date().getFullYear();
 
                 return (
@@ -74,7 +73,7 @@ const TimeSheetTable = ({ timesheetData }) => {
                   <div className="flex items-center gap-2">
                     <div className="w-5 h-5 flex items-center justify-center">
                       <img
-                        src="src/Assets/Images/priority_icon.png"
+                        src="https://res.cloudinary.com/dccqtnvxq/image/upload/v1735458283/jira/rvqilucg1sajjbfn9yvq.png"
                         alt="Lightning bolt"
                       />
                     </div>

@@ -2,43 +2,40 @@ import React, { useState } from "react";
 import { ChevronLeft, ChevronRight, MoreHorizontal } from "lucide-react";
 import DateRangePicker from "./DateRangePicker";
 import LogTimeModal from "./LogTimeModal";
-import initialData from "../Assets/data.json"; // Import initial JSON data
+import initialData from "../Assets/data.json";
 
 const DatePicker = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isDatePickerOpen, setIsDatePickerOpen] = useState(false);
-  const [timesheetData, setTimesheetData] = useState(initialData); // State for timesheet data
+  const [timesheetData, setTimesheetData] = useState(initialData);
 
-    // Define the onDataUpdate function
-    const handleDataUpdate = (newLog) => {
-      setTimesheetData((prevData) => {
-        const updatedData = [...prevData];
-        const issueIndex = updatedData.findIndex(item => item.issue === newLog.issue);
-  
-        if (issueIndex !== -1) {
-          // Update existing issue
-          const existingLogIndex = updatedData[issueIndex].logs.findIndex(
-            log => log.date === newLog.log.date
-          );
-  
-          if (existingLogIndex !== -1) {
-            // Update existing log
-            updatedData[issueIndex].logs[existingLogIndex] = newLog.log;
-          } else {
-            // Add new log
-            updatedData[issueIndex].logs.push(newLog.log);
-          }
+  const handleDataUpdate = newLog => {
+    setTimesheetData(prevData => {
+      const updatedData = [...prevData];
+      const issueIndex = updatedData.findIndex(
+        item => item.issue === newLog.issue
+      );
+
+      if (issueIndex !== -1) {
+        const existingLogIndex = updatedData[issueIndex].logs.findIndex(
+          log => log.date === newLog.log.date
+        );
+
+        if (existingLogIndex !== -1) {
+          updatedData[issueIndex].logs[existingLogIndex] = newLog.log;
         } else {
-          // Add new issue with log
-          updatedData.push({
-            issue: newLog.issue,
-            logs: [newLog.log]
-          });
+          updatedData[issueIndex].logs.push(newLog.log);
         }
-  
-        return updatedData;
-      });
-    };
+      } else {
+        updatedData.push({
+          issue: newLog.issue,
+          logs: [newLog.log],
+        });
+      }
+
+      return updatedData;
+    });
+  };
   const handleDateRange = (startDate, endDate) => {
     console.log("Selected date range:", startDate, endDate);
     setIsDatePickerOpen(false);
@@ -50,7 +47,7 @@ const DatePicker = () => {
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-200">
             <img
-              src="src/Assets/Images/profile.jpg"
+              src="https://res.cloudinary.com/dccqtnvxq/image/upload/v1735458284/jira/b0r8utw6oy17ncjzedol.jpg"
               alt="User avatar"
               className="w-full h-full object-cover"
             />
@@ -102,12 +99,11 @@ const DatePicker = () => {
         </div>
       </div>
 
-      {/* LogTimeModal component */}
       <LogTimeModal
         isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)} // Close modal
-        onDataUpdate={handleDataUpdate}  
-        timesheetData={timesheetData} // Pass current timesheet data to modal
+        onClose={() => setIsModalOpen(false)}
+        onDataUpdate={handleDataUpdate}
+        timesheetData={timesheetData}
       />
 
       <DateRangePicker
