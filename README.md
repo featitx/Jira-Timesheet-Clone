@@ -16,7 +16,7 @@ A modern, React-based time tracking application inspired by Jira's time logging 
   - Custom work log descriptions
   - Time estimation tracking (Total)
 
-- **Status**
+- **Status :_**
 ***It still under development and there is many thing to be implement***
 
 
