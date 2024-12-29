@@ -33,7 +33,7 @@ A modern, React-based time tracking application inspired by Jira's time logging 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/jira-timesheet.git
+git clone https://github.com/featitx/jira-timesheet.git
 cd jira-timesheet
 ```
 
