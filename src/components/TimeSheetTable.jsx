@@ -34,7 +34,7 @@ const TimeSheetTable = ({ timesheetData }) => {
               <th
                 className="border-y border-r border-gray-200 p-3 text-left font-normal text-sm sticky left-0 bg-white z-10 min-w-[250px]"
                 style={{
-                  borderLeft: "none", // Remove only the left border
+                  borderLeft: "none", 
                 }}
               >
                 Issue
@@ -57,7 +57,7 @@ const TimeSheetTable = ({ timesheetData }) => {
                     <div
                       className={`text-sm ${
                         isToday
-                          ? "bg-blue-100 text-blue-500 font-normal rounded-full px-2 py-1 border border-blue-500"
+                          ? "bg-blue-100 text-blue-500 font-normal rounded-[50%_50%/43%] px-2 py-1 border border-blue-500"
                           : ""
                       }`}
                     >
@@ -74,7 +74,7 @@ const TimeSheetTable = ({ timesheetData }) => {
                 <td
                   className="border-y border-r border-gray-200 p-3 sticky left-0 bg-white z-10 group-hover:bg-[#E9F2FF]"
                   style={{
-                    borderLeft: "none", // Remove only the left border
+                    borderLeft: "none", 
                   }}
                 >
                   <div className="flex items-center gap-2">
@@ -124,7 +124,7 @@ const TimeSheetTable = ({ timesheetData }) => {
               <td
                 className="border-y border-r border-gray-200 p-3 sticky left-0 bg-white z-10 text-sm"
                 style={{
-                  borderLeft: "none", // Remove only the left border
+                  borderLeft: "none", 
                 }}
               >
                 Total
